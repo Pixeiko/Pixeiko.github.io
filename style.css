@@ -1,6 +1,29 @@
 .header {
-  padding: 50px;
+  padding: 5px;
   text-align: center;
   background: #000000;
   color: white; 
+}
+
+.navigation {
+  background: #b2b2b2;
+  overflow: hidden;
+}
+
+.navigation a {
+  float: left;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.navigation a:hover {
+  background-color: black;
+  color:white;
+}
+
+.navigation a.right {
+  float: right;
 }

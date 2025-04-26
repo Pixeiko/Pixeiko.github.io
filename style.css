@@ -1,4 +1,5 @@
 .header {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
   background: #000000;
   overflow: hidden;
@@ -13,11 +14,26 @@
   color: white;
 }
 
-.header a:hover {
+.headbutton a:hover {
   background-color: white;
   color:black;
 }
 
-.header a.intro {
+.intro {
+  font-size: 25px;
   float: left;
+}
+
+.footer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background: #ddd;
+  text-align: center;
+  padding: 1px;
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  overflow: hidden;
 }

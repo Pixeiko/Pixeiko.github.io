@@ -1,17 +1,11 @@
 .header {
   padding: 5px;
-  text-align: center;
   background: #000000;
-  color: white; 
-}
-
-.navigation {
-  background: #b2b2b2;
   overflow: hidden;
 }
 
-.navigation a {
-  float: left;
+.header a {
+  float: right;
   text-align: center;
   display: block;
   text-decoration: none;
@@ -19,11 +13,11 @@
   color: white;
 }
 
-.navigation a:hover {
-  background-color: black;
-  color:white;
+.header a:hover {
+  background-color: white;
+  color:black;
 }
 
-.navigation a.right {
-  float: right;
+.header a.intro {
+  float: left;
 }

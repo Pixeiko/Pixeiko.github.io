@@ -9,16 +9,12 @@ html {
 }
 
 .main {
-  position: absolute;
   background: black;
   border-radius: 8px;
   border: 1px solid purple;
   text-align: center;
   overflow: hidden;
   color: white;
-  bottom: 40%;
-  left: 0;
-  right: 0;
 }
 
 .mobile {

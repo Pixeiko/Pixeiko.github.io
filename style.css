@@ -4,13 +4,58 @@ html {
 }   
 
 .button {
+  padding: 10px 10px;
+  background: black;
   overflow: hidden;
+  border-radius: 5px;
 }
 
-.main {
-  float: left;
-}
-
-.nav {
+.button a {
+  padding: 10px 10px;
   float: right;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.button a.main {
+  float: left;
+  font-size: 25px;
+}
+
+.button a:hover {
+  background: white;
+  color: black;
+}
+
+.button a.main:hover {
+  background: black;
+  color: white;
+}
+
+.mob {
+  display: ;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 1px 1px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .button a {
+    display: none;
+  }
+  
+  .button a.main {
+    display: block;
+    float: none;
+    overflow: hidden;
+  }
+  
+  .mob a {
+    display: block;
+  }
 }

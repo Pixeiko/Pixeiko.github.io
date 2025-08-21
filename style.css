@@ -12,6 +12,12 @@ html {
 
 .button a {
   padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.pc a {
+  padding: 10px 10px;
   float: right;
   text-decoration: none;
   color: white;
@@ -45,7 +51,7 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-  .button a {
+  .pc {
     display: none;
   }
   
@@ -55,7 +61,10 @@ footer {
     overflow: hidden;
   }
   
-  .mob a {
+  .mob {
     display: block;
+    float: none;
+    overflow: hidden;
+    padding: 10px 10px;
   }
 }

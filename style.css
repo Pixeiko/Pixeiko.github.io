@@ -8,9 +8,6 @@ html {
   background-repeat: no-repeat;
 }
 
-body {
-}
-
 footer {
   text-align: center;
   background: #5e5e5e;
@@ -24,8 +21,35 @@ footer {
   text-align: center;
   border: double 0.2em transparent;
   border-radius: 10px;
-  background-image: linear-gradient(purple, black),
-                    linear-gradient(to right, purple, violet);
+  background-image: linear-gradient(to right, violet, purple),
+                    linear-gradient(to right, purple, blue);
   background-origin: border-box;
   background-clip: content-box, border-box;
+}
+
+.intro {
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  padding: 80px;
+  border-style: solid;
+  border-color: violet;
+  border-radius: 10px;
+}
+
+.links {
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  padding: 80px;
+  border-style: solid;
+  border-color: violet;
+  border-radius: 10px;
+}
+
+.link {
+  text-align: center;
+  background: black;
+  padding: 20px;
+  border-style: solid;
+  border-color: violet;
+  border-radius: 10px;
 }

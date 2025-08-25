@@ -1,70 +1,31 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}   
-
-.button {
-  padding: 10px 10px;
-  background: black;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.button a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: white;
-}
-
-.pc a {
-  padding: 10px 10px;
-  float: right;
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-
-.button a.main {
-  float: left;
-  font-size: 25px;
-}
-
-.button a:hover {
-  background: white;
-  color: black;
-}
-
-.button a.main:hover {
   background: black;
   color: white;
+  background-image: url('https://c.wallhere.com/photos/5c/16/Kawaii_dake_ja_Nai_Shikimori_san_shikimori_anime_girls_anime_pink_hair_simple_background-2107909.jpg!d');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.mob {
-  display: none;
+body {
 }
 
 footer {
-  background: black;
-  color: white;
-  padding: 1px 1px;
-  border-radius: 5px;
+  text-align: center;
+  background: #5e5e5e;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  margin-top: auto;
 }
 
-@media screen and (max-width: 550px) {
-  .pc {
-    display: none;
-  }
-  
-  .button a.main {
-    display: block;
-    float: none;
-    overflow: hidden;
-  }
-  
-  .mob {
-    display: block;
-    float: none;
-    overflow: hidden;
-    padding: 10px 10px;
-  }
+.header {
+  text-align: center;
+  border: double 0.2em transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(purple, black),
+                    linear-gradient(to right, purple, violet);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
